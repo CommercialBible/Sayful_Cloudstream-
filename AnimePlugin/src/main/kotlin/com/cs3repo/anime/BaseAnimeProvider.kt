@@ -10,7 +10,7 @@ abstract class BaseAnimeProvider : MainAPI() {
     override var name: String = "Anime"
     override val supportedTypes = setOf(TvType.Anime)
     override val hasMainPage = true
-    override val mainPage = mainPageOf(MainPageData("Latest Anime", mainUrl))
+    override val mainPage get() = mainPageOf(MainPageData("Latest Anime", mainUrl))
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse? {
         val doc = app.get(request.data).document
