@@ -1,9 +1,7 @@
 package com.cs3repo.anime
 
 import com.lagradost.cloudstream3.plugins.BasePlugin
-import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 
-@CloudstreamPlugin
 class AnimePlugin : BasePlugin() {
     override fun load() {
         registerMainAPI(AniShowsProvider())
