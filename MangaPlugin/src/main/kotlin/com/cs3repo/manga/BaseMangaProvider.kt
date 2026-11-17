@@ -10,7 +10,7 @@ abstract class BaseMangaProvider : MainAPI() {
     override var name: String = "Manga"
     override val supportedTypes = setOf(TvType.TvSeries)
     override val hasMainPage = true
-    override val mainPage = mainPageOf(MainPageData("Latest Manga", mainUrl))
+    override val mainPage get() = mainPageOf(MainPageData("Latest Manga", mainUrl))
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse? {
         val doc = app.get(request.data).document
