@@ -1,9 +1,7 @@
 package com.cs3repo.moviesshows
 
 import com.lagradost.cloudstream3.plugins.BasePlugin
-import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 
-@CloudstreamPlugin
 class MoviesShowsPlugin : BasePlugin() {
     override fun load() {
         registerMainAPI(ArrowTVProvider())
