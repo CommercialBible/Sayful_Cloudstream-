@@ -1,6 +1,8 @@
 package com.cs3repo.anime
 
 import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.jsoup.nodes.Element
 
 abstract class BaseAnimeProvider : MainAPI() {
