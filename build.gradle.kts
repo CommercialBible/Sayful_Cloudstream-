@@ -7,7 +7,7 @@ buildscript {
     repositories { google(); mavenCentral(); maven("https://jitpack.io") }
     dependencies {
         classpath("com.android.tools.build:gradle:8.7.3")
-        classpath("com.github.recloudstream:gradle:-SNAPSHOT")
+        classpath("com.github.recloudstream:gradle:master-SNAPSHOT")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.0")
     }
 }
@@ -31,10 +31,9 @@ subprojects {
         }
     }
     dependencies {
-        // Use DependencyHandler.add() because these plugins are applied dynamically
-        // from the root script; Kotlin DSL cannot generate the implementation accessor here.
-        add("implementation", "com.github.recloudstream.cloudstream:library:-SNAPSHOT")
-        add("implementation", "org.jetbrains.kotlin:kotlin-stdlib")
+        val apk by configurations
+        apk("com.lagradost:cloudstream3:pre-release")
+        add("implementation", kotlin("stdlib"))
         add("implementation", "com.github.Blatzar:NiceHttp:0.4.11")
         add("implementation", "org.jsoup:jsoup:1.18.3")
         add("implementation", "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
