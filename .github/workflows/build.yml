@@ -50,8 +50,11 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p publish
-          find . -path '*/build/*.cs3' -type f -exec cp {} publish/ \\;
-          test "$(find publish -maxdepth 1 -name '*.cs3' | wc -l)" -eq 3
+          find . -type f -path '*/build/*.cs3' -print0 | while IFS= read -r -d '' file; do
+            cp "$file" publish/
+          done
+          count="$(find publish -maxdepth 1 -type f -name '*.cs3' | wc -l)"
+          test "$count" -eq 3 || { echo "Expected 3 plugin files, found $count"; exit 1; }
           test -s build/plugins.json
           cp build/plugins.json publish/plugins.json
           cp repo.json publish/repo.json
