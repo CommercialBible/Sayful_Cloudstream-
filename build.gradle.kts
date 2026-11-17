@@ -31,8 +31,8 @@ subprojects {
         }
     }
     dependencies {
-        val apk by configurations
-        apk("com.lagradost:cloudstream3:pre-release")
+        val cloudstream by configurations
+        cloudstream("com.lagradost:cloudstream3:pre-release")
         add("implementation", kotlin("stdlib"))
         add("implementation", "com.github.Blatzar:NiceHttp:0.4.11")
         add("implementation", "org.jsoup:jsoup:1.18.3")
