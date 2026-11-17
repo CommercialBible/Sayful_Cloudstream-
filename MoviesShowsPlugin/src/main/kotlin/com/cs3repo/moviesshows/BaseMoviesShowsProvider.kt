@@ -9,6 +9,14 @@ abstract class BaseMoviesShowsProvider : MainAPI() {
     override var mainUrl: String = ""
     override var name: String = "Movies & Shows"
     override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries)
+    override val hasMainPage = true
+    override val mainPage = mainPageOf(MainPageData("Latest", mainUrl))
+
+    override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse? {
+        val doc = app.get(request.data).document
+        val results = doc.select("div.film_list-item, div.movie-item, article.item, .post, .flw-item, .item").mapNotNull { it.toSearchResult() }
+        return newHomePageResponse(request, results, false)
+    }
     protected open val searchUrl: String = "/?s="
 
     protected open fun Element.toSearchResult(): SearchResponse? {
