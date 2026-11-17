@@ -10,7 +10,7 @@ abstract class BaseMoviesShowsProvider : MainAPI() {
     override var name: String = "Movies & Shows"
     override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries)
     override val hasMainPage = true
-    override val mainPage = mainPageOf(MainPageData("Latest", mainUrl))
+    override val mainPage get() = mainPageOf(MainPageData("Latest", mainUrl))
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse? {
         val doc = app.get(request.data).document
