@@ -1,5 +1,6 @@
 package com.cs3repo.moviesshows
 
+import com.lagradost.cloudstream3.TvType
 class OneShowsProvider : BaseMoviesShowsProvider() {
     override var mainUrl = "https://www.1shows.org"
     override var name = "1Shows"
