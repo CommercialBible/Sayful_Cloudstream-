@@ -61,8 +61,9 @@ jobs:
           python3 - <<'PYCODE'
           import json, pathlib
           data=json.loads(pathlib.Path('publish/plugins.json').read_text())
-          assert isinstance(data,dict) and data, 'plugins.json missing or empty'
+          assert isinstance(data, (dict, list)) and len(data) > 0, 'plugins.json missing or empty'
           repo=json.loads(pathlib.Path('publish/repo.json').read_text())
+          assert isinstance(repo, dict), 'repo.json must contain a JSON object'
           assert repo.get('manifestVersion') == 1 and repo.get('pluginLists'), 'repo.json invalid'
           print('JSON validation passed')
           PYCODE
