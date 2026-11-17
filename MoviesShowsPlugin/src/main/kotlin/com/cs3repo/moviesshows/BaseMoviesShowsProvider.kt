@@ -1,7 +1,18 @@
+package com.cs3repo.moviesshows
+
+import com.lagradost.cloudstream3.*
+import org.jsoup.nodes.Element
+
+abstract class BaseMoviesShowsProvider : MainAPI() {
+    override var mainUrl: String = ""
+    override var name: String = "Movies & Shows"
+    override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries)
+    protected open val searchUrl: String = "/?s="
+
     protected open fun Element.toSearchResult(): SearchResponse? {
-        val title = this.selectFirst("h3, h2, .title, .name, a.title")?.text()?.trim() ?: return null
-        val href = fixUrl(this.selectFirst("a")?.attr("href") ?: return null)
-        val poster = this.selectFirst("img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
+        val title = selectFirst("h3, h2, .title, .name, a.title")?.text()?.trim() ?: return null
+        val href = fixUrl(selectFirst("a")?.attr("href") ?: return null)
+        val poster = selectFirst("img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
         return newMovieSearchResponse(title, href, TvType.Movie) { addPoster(poster) }
     }
 
@@ -50,8 +61,7 @@
         doc.select("source, iframe, .play-link, .video-link, a[href*=.mp4], a[href*=.mkv]").forEach { element ->
             val link = element.attr("src").ifEmpty { element.attr("href") }
             if (link.isNotEmpty()) {
-                val absLink = fixUrl(link)
-                callback(newExtractorLink(this@BaseMoviesShowsProvider.name, this@BaseMoviesShowsProvider.name, absLink))
+                callback(newExtractorLink(name, name, fixUrl(link)))
             }
         }
         return true

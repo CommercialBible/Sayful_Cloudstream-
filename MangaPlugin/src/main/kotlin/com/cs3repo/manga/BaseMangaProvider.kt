@@ -1,6 +1,18 @@
-        val title = this.selectFirst("h3, h2, .title, .name, a.title")?.text()?.trim() ?: return null
-        val href = fixUrl(this.selectFirst("a")?.attr("href") ?: return null)
-        val poster = this.selectFirst("img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
+package com.cs3repo.manga
+
+import com.lagradost.cloudstream3.*
+import org.jsoup.nodes.Element
+
+abstract class BaseMangaProvider : MainAPI() {
+    override var mainUrl: String = ""
+    override var name: String = "Manga"
+    override val supportedTypes = setOf(TvType.TvSeries)
+    protected open val searchUrl: String = "/?s="
+
+    protected open fun Element.toSearchResult(): SearchResponse? {
+        val title = selectFirst("h3, h2, .title, .name, a.title")?.text()?.trim() ?: return null
+        val href = fixUrl(selectFirst("a")?.attr("href") ?: return null)
+        val poster = selectFirst("img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
         return newTvSeriesSearchResponse(title, href, TvType.TvSeries) { addPoster(poster) }
     }
 
@@ -16,9 +28,8 @@
         val poster = doc.selectFirst("img.poster, .poster img, .thumbnail img, img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
         val description = doc.selectFirst(".description, .summary, .synopsis, .entry-content, p")?.text()?.trim()
         val tags = doc.select(".genres a, .tag a").map { it.text().trim() }
-
         val chapters = doc.select(".chapter-list a, .chapters a, .list-chapter a").map { chapterElement ->
-            newEpisode(chapterElement.attr("href")) { name = chapterElement.text().trim() }
+            newEpisode(fixUrl(chapterElement.attr("href"))) { name = chapterElement.text().trim() }
         }
 
         return newTvSeriesLoadResponse(title, url, TvType.TvSeries, chapters) {
@@ -38,8 +49,7 @@
         doc.select("img.page-img, .reading-content img, .manga-page img, img.chapter-img").forEach { element ->
             val link = element.attr("data-src").ifEmpty { element.attr("src") }
             if (link.isNotEmpty()) {
-                val absLink = fixUrl(link)
-                callback(newExtractorLink(this@BaseMangaProvider.name, this@BaseMangaProvider.name, absLink))
+                callback(newExtractorLink(name, name, fixUrl(link)))
             }
         }
         return true

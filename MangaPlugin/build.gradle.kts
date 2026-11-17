@@ -1,8 +1,8 @@
 version = 1
 cloudstream {
     language = "en"
-    description = "Manga and webtoon reading providers"
+    description = "Manga and webtoon providers (represented as series)"
     authors = listOf("CommercialBible")
     status = 1
-    tvTypes = listOf("Others")
+    tvTypes = listOf("TvSeries")
 }

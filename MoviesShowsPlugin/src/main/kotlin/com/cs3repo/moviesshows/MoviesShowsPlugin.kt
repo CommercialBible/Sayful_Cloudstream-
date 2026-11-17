@@ -1,12 +1,11 @@
 package com.cs3repo.moviesshows
 
-import android.content.Context
+import com.lagradost.cloudstream3.plugins.BasePlugin
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
-import com.lagradost.cloudstream3.plugins.Plugin
 
 @CloudstreamPlugin
-class MoviesShowsPlugin : Plugin() {
-    override fun load(context: Context) {
+class MoviesShowsPlugin : BasePlugin() {
+    override fun load() {
         registerMainAPI(ArrowTVProvider())
         registerMainAPI(CineHDProvider())
         registerMainAPI(CineXProvider())

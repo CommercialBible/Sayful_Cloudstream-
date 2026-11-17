@@ -1,12 +1,11 @@
 package com.cs3repo.anime
 
-import android.content.Context
+import com.lagradost.cloudstream3.plugins.BasePlugin
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
-import com.lagradost.cloudstream3.plugins.Plugin
 
 @CloudstreamPlugin
-class AnimePlugin : Plugin() {
-    override fun load(context: Context) {
+class AnimePlugin : BasePlugin() {
+    override fun load() {
         registerMainAPI(AniShowsProvider())
         registerMainAPI(AniWavesProvider())
         registerMainAPI(AnikotoTVProvider())

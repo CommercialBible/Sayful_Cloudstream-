@@ -1,6 +1,18 @@
-        val title = this.selectFirst("h3, h2, .title, .name, a.title")?.text()?.trim() ?: return null
-        val href = fixUrl(this.selectFirst("a")?.attr("href") ?: return null)
-        val poster = this.selectFirst("img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
+package com.cs3repo.anime
+
+import com.lagradost.cloudstream3.*
+import org.jsoup.nodes.Element
+
+abstract class BaseAnimeProvider : MainAPI() {
+    override var mainUrl: String = ""
+    override var name: String = "Anime"
+    override val supportedTypes = setOf(TvType.Anime)
+    protected open val searchUrl: String = "/?s="
+
+    protected open fun Element.toSearchResult(): SearchResponse? {
+        val title = selectFirst("h3, h2, .title, .name, a.title")?.text()?.trim() ?: return null
+        val href = fixUrl(selectFirst("a")?.attr("href") ?: return null)
+        val poster = selectFirst("img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
         return newAnimeSearchResponse(title, href, TvType.Anime) { addPoster(poster) }
     }
 
@@ -16,7 +28,6 @@
         val poster = doc.selectFirst("img.poster, .poster img, .thumbnail img, img")?.let { it.attr("data-src").ifEmpty { it.attr("src") } }
         val description = doc.selectFirst(".description, .summary, .synopsis, .entry-content, p")?.text()?.trim()
         val tags = doc.select(".genres a, .tag a").map { it.text().trim() }
-
         val episodes = doc.select(".episode-list a, .episodes a, .season-list li a").map { episodeElement ->
             newEpisode(episodeElement.attr("href")) { name = episodeElement.text().trim() }
         }
@@ -39,8 +50,7 @@
         doc.select("source, iframe, .play-link, .video-link, a[href*=.mp4], a[href*=.mkv]").forEach { element ->
             val link = element.attr("src").ifEmpty { element.attr("href") }
             if (link.isNotEmpty()) {
-                val absLink = fixUrl(link)
-                callback(newExtractorLink(this@BaseAnimeProvider.name, this@BaseAnimeProvider.name, absLink))
+                callback(newExtractorLink(name, name, fixUrl(link)))
             }
         }
         return true
