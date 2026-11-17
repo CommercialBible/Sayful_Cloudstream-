@@ -9,6 +9,14 @@ abstract class BaseMangaProvider : MainAPI() {
     override var mainUrl: String = ""
     override var name: String = "Manga"
     override val supportedTypes = setOf(TvType.TvSeries)
+    override val hasMainPage = true
+    override val mainPage = mainPageOf(MainPageData("Latest Manga", mainUrl))
+
+    override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse? {
+        val doc = app.get(request.data).document
+        val results = doc.select("div.manga-item, div.list-item, article.item, .entry, .post, .bs, .item").mapNotNull { it.toSearchResult() }
+        return newHomePageResponse(request, results, false)
+    }
     protected open val searchUrl: String = "/?s="
 
     protected open fun Element.toSearchResult(): SearchResponse? {
