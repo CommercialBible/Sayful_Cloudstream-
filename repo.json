@@ -1,0 +1,8 @@
+{
+  "name": "Sayful CloudStream Repository",
+  "description": "Movies & Shows, Anime, and Manga providers by CommercialBible.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/plugins.json"
+  ]
+}

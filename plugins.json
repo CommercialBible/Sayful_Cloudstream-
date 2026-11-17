@@ -1,0 +1,955 @@
+[
+    {
+        "fileHash": "sha256-34279cde9ea501310e1b94bd4c27c37a3d850510e8b3e7a4929384d9c8d009bb",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13742,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "AnikotoTV",
+        "description": "AnikotoTV provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/AnikotoTV.cs3",
+        "name": "AnikotoTV"
+    },
+    {
+        "fileHash": "sha256-1d9bf707a503f7ed6f52b40c7e98225839ef8fa52c9f21c922a5d26270647f77",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13749,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "AnimeRulz",
+        "description": "AnimeRulz provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/AnimeRulz.cs3",
+        "name": "AnimeRulz"
+    },
+    {
+        "fileHash": "sha256-89c6673ed93c862d534b8c1402034fdd3cb7d4ae1d1c02d000293601c37c4247",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13745,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "AnimeSalt",
+        "description": "AnimeSalt provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/AnimeSalt.cs3",
+        "name": "AnimeSalt"
+    },
+    {
+        "fileHash": "sha256-c706d4d9ad82d2d8cdf53e9c15a605e37eb73a9018f9c269ee5360528e87140d",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13747,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "Animetsu",
+        "description": "Animetsu provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Animetsu.cs3",
+        "name": "Animetsu"
+    },
+    {
+        "fileHash": "sha256-95b6f81dfbacf5ec0e288e57bc295002d3d607e22b5d7766a24df4f0cb5aa139",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13747,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "AnimeTVPlus",
+        "description": "AnimeTVPlus provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/AnimeTVPlus.cs3",
+        "name": "AnimeTVPlus"
+    },
+    {
+        "fileHash": "sha256-b4b9f81c26ab96a56b2fbfa92507658515e609cf3156a5fa83b971313097d3e5",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 12200,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "AniReads",
+        "description": "AniReads provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/AniReads.cs3",
+        "name": "AniReads"
+    },
+    {
+        "fileHash": "sha256-e0fbbb0ea79230122e93475f70fb8733d96068e253d31092dfb006530bab17f0",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13753,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "AniShows",
+        "description": "AniShows provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/AniShows.cs3",
+        "name": "AniShows"
+    },
+    {
+        "fileHash": "sha256-cae8bb5b37f5f403c6df34aa2454466697b517d2869577011b08128ce86bd9de",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13757,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "AniWaves",
+        "description": "AniWaves provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/AniWaves.cs3",
+        "name": "AniWaves"
+    },
+    {
+        "fileHash": "sha256-e2b37dff6eb4800d6e41be2b5ce5b0ddac44d2f5bd8f4e717c05c5f146b22051",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15834,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "ArrowTV",
+        "description": "ArrowTV provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/ArrowTV.cs3",
+        "name": "ArrowTV"
+    },
+    {
+        "fileHash": "sha256-f8b5b034ea8309d26b8abbeb03a6ca6bff645c3ca6fb6535e9535be8356e9e82",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15833,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "CineHD",
+        "description": "CineHD provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/CineHD.cs3",
+        "name": "CineHD"
+    },
+    {
+        "fileHash": "sha256-36b5f8f7acfd1f4e73d21632ff97450ced3c70c863230a5582e3963249591e44",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15838,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "CineX",
+        "description": "CineX provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/CineX.cs3",
+        "name": "CineX"
+    },
+    {
+        "fileHash": "sha256-5941a1e60e6d16f06dc846d90407560199d7ff0b3cfe5ecd6b2e2f70d3a163f5",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15834,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Cinezo",
+        "description": "Cinezo provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Cinezo.cs3",
+        "name": "Cinezo"
+    },
+    {
+        "fileHash": "sha256-e68354f934623e70aa00bfa1ac70614da39090212c8f221a7537b35b6190007a",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 12208,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "ComicK",
+        "description": "ComicK provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/ComicK.cs3",
+        "name": "ComicK"
+    },
+    {
+        "fileHash": "sha256-c3e93f40b9e9bb5ba9c6ca85bb09c41b076d4ccbb0d90bb076f78adab219d634",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13759,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "DubAnimePlay",
+        "description": "DubAnimePlay provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/DubAnimePlay.cs3",
+        "name": "DubAnimePlay"
+    },
+    {
+        "fileHash": "sha256-1588079eee898c22d2d0afcc6682199224bfe96d45c7ea3754c6264af64aff25",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15833,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "EMWBD",
+        "description": "EMWBD provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/EMWBD.cs3",
+        "name": "EMWBD"
+    },
+    {
+        "fileHash": "sha256-437dbcb8e7574a9c9332e4a50d8e9107cdba391f0d8fe7cb45171b4d4f7a2712",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13745,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "Enma",
+        "description": "Enma provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Enma.cs3",
+        "name": "Enma"
+    },
+    {
+        "fileHash": "sha256-6fe12d62f2d1d11a0e226a1466eaceda3e813e8b26393fc8f368246c79d971ae",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13752,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "FlixAni",
+        "description": "FlixAni provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/FlixAni.cs3",
+        "name": "FlixAni"
+    },
+    {
+        "fileHash": "sha256-3e3e008a479b63d90d89bb3ed57bb90d9083f17ad8a3a358454fd10684b8e27a",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15847,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "FlixHubAniflix",
+        "description": "FlixHubAniflix provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/FlixHubAniflix.cs3",
+        "name": "FlixHubAniflix"
+    },
+    {
+        "fileHash": "sha256-2abe426ad72ad4d7b5732158c101218bc4a8358398f7f28136e2610e653e1c34",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15841,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "GaiaFlix",
+        "description": "GaiaFlix provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/GaiaFlix.cs3",
+        "name": "GaiaFlix"
+    },
+    {
+        "fileHash": "sha256-1191c66eff218da0802447a2d935dca93116c52865ea282f329f5c090060f638",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15842,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "GhostFlix",
+        "description": "GhostFlix provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/GhostFlix.cs3",
+        "name": "GhostFlix"
+    },
+    {
+        "fileHash": "sha256-e1b081f487ce571760229f4dcfd560b4c8b6009f20d9407a5dd8cfbf8a1211d0",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15839,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "HDHub4u",
+        "description": "HDHub4u provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/HDHub4u.cs3",
+        "name": "HDHub4u"
+    },
+    {
+        "fileHash": "sha256-7c9ebf13f1f2f9a85f43eb739736c355b63fdc0baee6db2652d102c0aa6a83df",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15842,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "HDWebMovies",
+        "description": "HDWebMovies provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/HDWebMovies.cs3",
+        "name": "HDWebMovies"
+    },
+    {
+        "fileHash": "sha256-b2a872077c323d8382f6849d1d475be0aad89849b0f030c630de04a4ccc51e15",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13745,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "HiAnime",
+        "description": "HiAnime provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/HiAnime.cs3",
+        "name": "HiAnime"
+    },
+    {
+        "fileHash": "sha256-fda325b19d8d73f41926b1a8235c42565b05477ee36b5b45dbb1892329a28595",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13741,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "JustAnime",
+        "description": "JustAnime provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/JustAnime.cs3",
+        "name": "JustAnime"
+    },
+    {
+        "fileHash": "sha256-298f65218ba81d0f597dd3ea4b3b20ead7aedc8fee8db52bb89d8a9f488e3dc6",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13742,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "Kaa",
+        "description": "Kaa provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Kaa.cs3",
+        "name": "Kaa"
+    },
+    {
+        "fileHash": "sha256-d752202a3e77549ec4804d1b508a38ca7b4195c3bea66b23ee5c21279fb34c3e",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 12211,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "KingOfShojo",
+        "description": "KingOfShojo provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/KingOfShojo.cs3",
+        "name": "KingOfShojo"
+    },
+    {
+        "fileHash": "sha256-931456c155ad0acdfc02fd1acf541b0c8d3af74317fe07475eef19db1d8a50d8",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 12201,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "MangaBall",
+        "description": "MangaBall provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/MangaBall.cs3",
+        "name": "MangaBall"
+    },
+    {
+        "fileHash": "sha256-dd76c14c4cd63563151198ebf9f2fe9456b75162d942d9cc8077a0c44d8db58a",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15839,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "MovieLinkBD",
+        "description": "MovieLinkBD provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/MovieLinkBD.cs3",
+        "name": "MovieLinkBD"
+    },
+    {
+        "fileHash": "sha256-41361e6269171ad25f0400f75d508bd80a9b6f70c0bd04ee0754ba00c9017055",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15842,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "OneFlex",
+        "description": "OneFlex provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/OneFlex.cs3",
+        "name": "OneFlex"
+    },
+    {
+        "fileHash": "sha256-848731aa4d538c1906f793f1d279aa06c966c11f5685383d07e492f9d06e7963",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15842,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "OneShows",
+        "description": "OneShows provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/OneShows.cs3",
+        "name": "OneShows"
+    },
+    {
+        "fileHash": "sha256-450936d068f798f41354e875c7e24dc120fd9fb46501d55ec8074c51aa13b260",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15843,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "OneTube",
+        "description": "OneTube provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/OneTube.cs3",
+        "name": "OneTube"
+    },
+    {
+        "fileHash": "sha256-c181635dd39314502c94f604ecbc0a7244745b3c017200f869e33e37f1c558d7",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13741,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "Otanox",
+        "description": "Otanox provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Otanox.cs3",
+        "name": "Otanox"
+    },
+    {
+        "fileHash": "sha256-d4907907b8879a8ce704f0d056532e8485527b2dc509acddbfc74a1d3bb6a183",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15846,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "PantyFlix",
+        "description": "PantyFlix provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/PantyFlix.cs3",
+        "name": "PantyFlix"
+    },
+    {
+        "fileHash": "sha256-445a7ca58658a83e44fff2965b722eb58c9e186e178fb7d5e18ab7b2fc27f383",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15838,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "PrimeShows",
+        "description": "PrimeShows provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/PrimeShows.cs3",
+        "name": "PrimeShows"
+    },
+    {
+        "fileHash": "sha256-282be0096fb18e71b90cd907f898052f5e3d1e62af26a8b05df231f8b55f83a2",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 12195,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "QToon",
+        "description": "QToon provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/QToon.cs3",
+        "name": "QToon"
+    },
+    {
+        "fileHash": "sha256-5f152546964107aecb0b0ac4c3f3407c72ed3c469388942a40c06dde72dff88c",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15835,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "RedFlix",
+        "description": "RedFlix provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/RedFlix.cs3",
+        "name": "RedFlix"
+    },
+    {
+        "fileHash": "sha256-4946dfe013270294347d492e2fbc1c76ea38628981f34af600c41f6f894c8305",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13755,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "SenpaiFlix",
+        "description": "SenpaiFlix provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/SenpaiFlix.cs3",
+        "name": "SenpaiFlix"
+    },
+    {
+        "fileHash": "sha256-c944a1665e7e580219b5ed5a3893a5addefe02f0d1083b76dae3860f183ab3da",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15834,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "SevenReels",
+        "description": "SevenReels provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/SevenReels.cs3",
+        "name": "SevenReels"
+    },
+    {
+        "fileHash": "sha256-11bac15f709f81b6fc18c53ab572093babeb708223d93812945e2a8c44462335",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15844,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "ShuttleTV",
+        "description": "ShuttleTV provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/ShuttleTV.cs3",
+        "name": "ShuttleTV"
+    },
+    {
+        "fileHash": "sha256-ba2921ead79d00fa57b1dc7ee21581ae17ad9794bbf1078da0cca0464c7cbabe",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15824,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "TellyHD",
+        "description": "TellyHD provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/TellyHD.cs3",
+        "name": "TellyHD"
+    },
+    {
+        "fileHash": "sha256-414dce79e0a99a9313c0e1402b73f6a11b6126caf564cff72b508aaeada98bd1",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15830,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "ThugTV",
+        "description": "ThugTV provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/ThugTV.cs3",
+        "name": "ThugTV"
+    },
+    {
+        "fileHash": "sha256-b5027605a2a29090f58736d7f7c0a68bdba358b21c2ae40cac87baec8f1ac418",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15839,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "VuFlix",
+        "description": "VuFlix provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/VuFlix.cs3",
+        "name": "VuFlix"
+    },
+    {
+        "fileHash": "sha256-0314e10abaff1bf125dc60a9845a32452879df4074317dd712794756c490ff40",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13759,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "WatchAnimez",
+        "description": "WatchAnimez provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/WatchAnimez.cs3",
+        "name": "WatchAnimez"
+    },
+    {
+        "fileHash": "sha256-fc317c4f431023904bcf1449a0511614e39c249fc5b245d1191732d721a2d2cd",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 12193,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Webtoons",
+        "description": "Webtoons provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Webtoons.cs3",
+        "name": "Webtoons"
+    },
+    {
+        "fileHash": "sha256-fb5a63314da99769f3206a831ee8edad8b879c069145745ec96d42710cce980e",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 12209,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "WeebCentral",
+        "description": "WeebCentral provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/WeebCentral.cs3",
+        "name": "WeebCentral"
+    },
+    {
+        "fileHash": "sha256-07a2b2ba31e55fc4154dfe4b52bf0210f5343e496f9c670771ef118e0177400b",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15831,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Willow",
+        "description": "Willow provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Willow.cs3",
+        "name": "Willow"
+    },
+    {
+        "fileHash": "sha256-3d61d5ea835e6b09e69d0f4c2bcc9b5505c68602312706c369081030836bec56",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 13736,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeSeries"
+        ],
+        "version": 1,
+        "internalName": "Yenime",
+        "description": "Yenime provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/Yenime.cs3",
+        "name": "Yenime"
+    },
+    {
+        "fileHash": "sha256-3f941a4173311df9bea488f3bf817edc9d484597a64fda1f94319249fe868872",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/CommercialBible/Sayful_Cloudstream-",
+        "fileSize": 15830,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "CommercialBible"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "YouShows",
+        "description": "YouShows provider",
+        "url": "https://raw.githubusercontent.com/CommercialBible/Sayful_Cloudstream-/builds/YouShows.cs3",
+        "name": "YouShows"
+    }
+]
