@@ -31,11 +31,13 @@ subprojects {
         }
     }
     dependencies {
-        implementation("com.github.recloudstream.cloudstream:library:-SNAPSHOT")
-        implementation(kotlin("stdlib"))
-        implementation("com.github.Blatzar:NiceHttp:0.4.11")
-        implementation("org.jsoup:jsoup:1.18.3")
-        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
+        // Use DependencyHandler.add() because these plugins are applied dynamically
+        // from the root script; Kotlin DSL cannot generate the implementation accessor here.
+        add("implementation", "com.github.recloudstream.cloudstream:library:-SNAPSHOT")
+        add("implementation", "org.jetbrains.kotlin:kotlin-stdlib")
+        add("implementation", "com.github.Blatzar:NiceHttp:0.4.11")
+        add("implementation", "org.jsoup:jsoup:1.18.3")
+        add("implementation", "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
     }
 }
 tasks.register<Delete>("clean") { delete(rootProject.layout.buildDirectory) }
